@@ -13,7 +13,7 @@ const GridImage = ({ allImage }) => {
                                 <div>Our Gallary</div>
                                 <div key={index} className='grid__item'>
                                     <img
-                                        src={`http://localhost:3500/ItemImage/${item._id}`}
+                                        src={`https://megenagna-api.onrender.com/ItemImage/${item._id}`}
                                         alt='grid_image'
                                     />
                                 </div>
