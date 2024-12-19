@@ -41,7 +41,7 @@ const NewImage = ({ fPicName, setfPicName, uploadStatus, setUploadStatus }) => {
             formData.append("ItemPics", selectedFile);
 
             const response = await axios.post(
-                "http://localhost:3500/ItemImage",
+                "https://megenagna-api.onrender.com/ItemImage",
                 formData,
                 {
                     onUploadProgress: (progressEvent) => {
