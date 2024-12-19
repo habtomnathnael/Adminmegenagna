@@ -11,7 +11,7 @@ const getImage = () => {
     }, [])
 
     const getImages = async () => {
-        const result = await axios.get("http://localhost:3500/ItemImage");
+        const result = await axios.get("https://megenagna-api.onrender.com/ItemImage");
         // console.log(result)
         setAllImage(result.data.data)
     }
