@@ -133,7 +133,7 @@ const NewNoteForm = ({ users }) => {
 
         formData.append("ItemPics", fPics)
 
-        fetch("http://localhost:3500/ItemImage", {
+        fetch("https://megenagna-api.onrender.com/ItemImage", {
             method: 'POST',
             body: formData,
         }).then(async (res) => {
