@@ -147,7 +147,7 @@ const EditNoteForm = ({ note, users }) => {
 
 
     useEffect(() => {
-        setImagePath(`http://localhost:3500/ItemImage/${note.fPicName}`)
+        setImagePath(`https://megenagna-api.onrender.com/ItemImage/${note.fPicName}`)
     }, [fPicName])
 
 
