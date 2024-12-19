@@ -9,7 +9,7 @@ const ImageList = () => {
 
     useEffect(() => {
         setLoading(true)
-        axios.get("http://localhost:3500/ItemImage")
+        axios.get("https://megenagna-api.onrender.com/ItemImage")
             .then((res) => {
                 setAllImage(res.data)
                 loading(false)
